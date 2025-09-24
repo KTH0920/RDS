@@ -1,0 +1,28 @@
+{
+  "name": "rds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTH0920/RDS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KTH0920/RDS/issues"
+  },
+  "homepage": "https://github.com/KTH0920/RDS#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  }
+}
